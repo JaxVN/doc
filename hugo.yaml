@@ -1,5 +1,5 @@
-baseURL: https://vnit.netlify.app
-title: VNIT
+baseURL: https://jaxvn.netlify.app
+title: JAXVN
 
 # cSpell:ignore goldmark github hugo readingtime docsy subdir lastmod pygments linenos catmullrom norsk gu
 
@@ -46,16 +46,16 @@ imaging:
 languages:
   en:
     languageName: English
-    title: "VNIT docs"
+    title: "JAXVN Docs"
     params:
-      description: A Docsy example site
+      description: My Docs
   # cSpell:disable
   vi:
     languageName: Vietnamese
     contentDir: content/vi
-    title: "VNIT docs"
+    title: "JAXVN Docs"
     params:
-      description: Một trang Docsy mẫu
+      description: Tài liệu của Jax
       time_format_default: "02.01.2006"
       time_format_blog: "02.01.2006"
   # cSpell:enable
@@ -114,10 +114,10 @@ params:
   url_latest_version: https://example.com
 
   # Repository configuration (URLs for in-page links to opening issues and suggesting changes)
-  github_repo: https://github.com/VNIT-for-All/Temp
+  github_repo: https://github.com/JAXVN/Doc
 
   # An optional link to a related project repo. For example, the sibling repository where your product code lives.
-  github_project_repo: https://github.com/VNIT-for-All/Temp
+  github_project_repo: https://github.com/JAXVN/Doc
 
   # Specify a value here if your content directory is not in your repo's root directory
   # github_subdir: ""
@@ -160,9 +160,9 @@ params:
       enable: true
       # The responses that the user sees after clicking "yes" (the page was helpful) or "no" (the page was not helpful).
       'yes': >-
-        Glad to hear it! Please <a href="https://github.com/VNIT-for-All/Temp/issues/new">tell us how we can improve</a>.
+        Glad to hear it! Please <a href="https://github.com/JAXVN/Doc/issues/new">tell us how we can improve</a>.
       'no': >-
-        Sorry to hear that. Please <a href="https://github.com/VNIT-for-All/Temp/issues/new">tell us how we can improve</a>.
+        Sorry to hear that. Please <a href="https://github.com/JAXVN/Doc/issues/new">tell us how we can improve</a>.
 
     # Adds a reading time to the top of each doc.
     # If you want this feature, but occasionally need to remove the Reading time from a single page,
@@ -188,7 +188,7 @@ params:
     # Developer relevant links. These will show up on right side of footer and in the community page if you have one.
     developer:
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: hhttps://github.com/jaxvn
         icon: fab fa-github
         desc: Development takes place here!
       - name: Slack
